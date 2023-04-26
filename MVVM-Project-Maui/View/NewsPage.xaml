@@ -12,6 +12,6 @@
                Text="{Binding UserName}"/>
 
         <Button Text="Sign In"
-                Command="{Binding SignInCommand}"/>
+                Command="{Binding LoginCommand}"/>
     </VerticalStackLayout>
 </ContentPage>
