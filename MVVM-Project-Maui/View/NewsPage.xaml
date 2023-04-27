@@ -4,14 +4,20 @@
              x:Class="MVVM_Project_Maui.View.NewsPage"
              xmlns:viewmodel="clr-namespace:MVVM_Project_Maui.ViewModel"
              x:DataType="viewmodel:NewsViewModel">
-    <VerticalStackLayout Margin="30">
-        
-        <Label  Text="{Binding UserName}"/>
+    <VerticalStackLayout Margin="30"> 
 
         <Entry Placeholder="Enter User Name"
-               Text="{Binding UserName}"/>
+               Text="{Binding Username}" 
+               Margin="10"/>
+        <Entry Placeholder="Enter User Email"
+               Text="{Binding Useremail}"
+               Margin="10"/>
+        <Entry Placeholder="Enter User Phone"
+               Text="{Binding Userphone}"
+               Margin="10"/>
 
         <Button Text="Sign In"
-                Command="{Binding LoginCommand}"/>
+                Command="{Binding LoginCommand}"
+                Margin="10"/>
     </VerticalStackLayout>
 </ContentPage>

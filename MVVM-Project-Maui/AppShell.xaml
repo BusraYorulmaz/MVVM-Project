@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="News"
+        Title="TO LEARN MVVM"
         ContentTemplate="{DataTemplate local:NewsPage}"
         Route="NewsPage" />
 
