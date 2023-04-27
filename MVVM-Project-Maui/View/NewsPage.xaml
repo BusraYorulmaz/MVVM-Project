@@ -4,14 +4,19 @@
              x:Class="MVVM_Project_Maui.View.NewsPage"
              xmlns:viewmodel="clr-namespace:MVVM_Project_Maui.ViewModel"
              x:DataType="viewmodel:NewsViewModel">
-    <VerticalStackLayout Margin="30"> 
+    <VerticalStackLayout Margin="30">
+        <Label Margin="20" HorizontalOptions="Center" Text="KULLANICI BİLGİLERİ GİRİNİZ" FontAttributes="Bold"/>
 
+        <Label Text="Kullanıcı Adı Giriniz" FontSize="12"/>
         <Entry Placeholder="Enter User Name"
                Text="{Binding Username}" 
                Margin="10"/>
+        <Label Text="Kullanıcı Email Giriniz" FontSize="12"/>
         <Entry Placeholder="Enter User Email"
                Text="{Binding Useremail}"
                Margin="10"/>
+        <Label Text="Kullanıcı Telefon No" FontSize="12"/>
+
         <Entry Placeholder="Enter User Phone"
                Text="{Binding Userphone}"
                Margin="10"/>
